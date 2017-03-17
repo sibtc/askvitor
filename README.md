@@ -2,7 +2,7 @@
 
 This is the repository where I share the code used in Q&A posts from the blog [simpleisbetterthancomplex.com](https://simpleisbetterthancomplex.com).
 
-# Questions Database
+# Questions
 
 \# | Question | URL
 --|----------|-----
