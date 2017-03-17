@@ -2,7 +2,6 @@
 Published at: Mar 17, 2017
 Python version: 3.6.0
 Django version: 1.10.6
-Tags: django forms urls cbv
 ---
 
 # Ask Vitor #1: Getting form data to appear in URL and for use in the next view
@@ -12,5 +11,7 @@ Tags: django forms urls cbv
 > I’m using class based views and for the report I’m using generic view since this view is a custom report I’m building using multiple db models.
 > 
 > Asked by Devon Moore
+
+`django` `forms` `urls` `cbv`
 
 [Read the answer](http://sibt.co/2nh8ZR9)
