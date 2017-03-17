@@ -1,6 +1,6 @@
 # Ask Vitor #1: Getting form data to appear in URL and for use in the next view
 
-Published at: Mar 17, 2017
+Published at Mar 17, 2017
 
 > I want to have the user specify a date in a custom form. This date will append the current URL with the date value `path/YYYY-MM-DD/` I then need to capture the date and use it to filter data from the database to display that date’s data.
 >
