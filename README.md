@@ -10,4 +10,4 @@ This is the repository where I share the code used in Q&A posts from the blog [s
 
 # Have a question about Django? Go ahead and ask it!
 
-[Ask a Question](http://sibt.co/askvitor)
+[![Ask a Question](https://simpleisbetterthancomplex.com/img/btn_ask_a_question.png)](http://sibt.co/askvitor)
