@@ -1,5 +1,8 @@
 # Ask Vitor #1: Getting form data to appear in URL and for use in the next view
 
+[![Python Version](https://img.shields.io/badge/python-3.6.0-brightgreen.svg)](https://python.org)
+[![Django Version](https://img.shields.io/badge/django-1.10.6-brightgreen.svg)](https://djangoproject.com)
+
 Published at Mar 17, 2017
 
 > I want to have the user specify a date in a custom form. This date will append the current URL with the date value `path/YYYY-MM-DD/` I then need to capture the date and use it to filter data from the database to display that date’s data.
@@ -8,6 +11,6 @@ Published at Mar 17, 2017
 > 
 > Asked by Devon Moore
 
-`python 3.6.0` `django 1.10.6` `forms` `urls` `cbv`
+`django` `forms` `urls` `cbv`
 
 [Read the answer](http://sibt.co/2nh8ZR9)
