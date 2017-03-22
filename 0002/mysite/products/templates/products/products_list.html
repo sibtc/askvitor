@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Products</h1>
+  <p>
+    <a href="{% url 'new_product' %}">New product</a>
+    <a href="{% url 'new_category' %}">New category</a>
+    <a href="{% url 'logout' %}">Log out</a>
+  </p>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Category</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for product in products %}
+        <tr>
+          <td>{{ product.name }}</td>
+          <td>{{ product.price }}</td>
+          <td>{{ product.category.name }}</td>
+        </tr>
+        {% if forloop.last %}
+          <tr>
+            <td colspan="3">
+              <a href="{% url 'edit_all_products' %}">Edit all products</a>
+            </td>
+          </tr>
+        {% endif %}
+      {% empty %}
+        <tr>
+          <td colspan="3">No product</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}
