@@ -4,10 +4,8 @@ This is the repository where I share the code used in Q&A posts from the blog [s
 
 # Questions
 
-\# | Question | URL
---|----------|-----
-0002 | How to dynamically filter ModelChoice's queryset in a ModelForm? | [Read more](https://github.com/sibtc/askvitor/tree/master/0002)
-0001 | Getting form data to appear in URL and for use in the next view | [Read more](https://github.com/sibtc/askvitor/tree/master/0001)
+* [Ask Vitor #1: Getting form data to appear in URL and for use in the next view](https://github.com/sibtc/askvitor/tree/master/0001)
+* [Ask Vitor #2: How to dynamically filter ModelChoice's queryset in a ModelForm?](https://github.com/sibtc/askvitor/tree/master/0002)
 
 # Have a question about Django?
 
